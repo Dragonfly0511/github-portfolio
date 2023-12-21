@@ -1,4 +1,4 @@
-/* header {
+header {
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -7,25 +7,16 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  background-color: bisque;
+}
 
-
-  nav {
-    display: flex;
-    background-color: bisque;
-    justify-content: flex-end;
-    justify-content: space-around;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-} */
-
-
+.column{
+  display: flex block;
+  flex-direction: column;
+  justify-content: center;
+} 
 #profile {
-  border: radius 100%;
+  border: radius 50,50,50,50;
+  background-color: yellow;
 }
 
 .btn {
